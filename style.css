@@ -1,0 +1,74 @@
+body {
+  background-color: rgba(199, 189, 176, 0.58);
+  font-family: 'Heebo', sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: large;
+  line-height: 15px;
+}
+
+h1, h2 {
+  font-family: 'Heebo', sans-serif;
+  color: rgb(75, 4, 4);
+  font-size: x-large;
+  line-height: 20px;
+  font-weight: 800;
+}
+
+a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  color: rgb(75, 4, 4);
+}
+
+a:hover {
+  color: black;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-left: 0px;
+  list-style: none;
+}
+
+.btn {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(128, 128, 128);
+}
