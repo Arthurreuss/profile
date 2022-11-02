@@ -1,17 +1,26 @@
 body {
   background-color: rgba(199, 189, 176, 0.58);
   font-family: 'Heebo', sans-serif;
-  color: rgb(0, 0, 0);
-  font-size: large;
+  color: rgb(75, 4, 4);
+  font-size: medium;
   line-height: 15px;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/006/294/353/original/cute-cartoon-style-beach-sand-with-pebbles-seamless-pattern-great-for-spring-or-summer-fabric-scrap-booking-gift-wrap-wallpaper-product-design-product-design-surface-design-vector.jpg");
 }
 
-h1, h2 {
+h1 {
   font-family: 'Heebo', sans-serif;
   color: rgb(75, 4, 4);
   font-size: x-large;
   line-height: 20px;
   font-weight: 800;
+}
+
+h2, h3 {
+  font-family: 'Heebo', sans-serif;
+  color: rgb(75, 4, 4);
+  font-size: medium;
+  line-height: 20px;
+  /* font-weight: 800; */
 }
 
 a {
@@ -32,10 +41,19 @@ a:hover {
   text-align: center;
 }
 
+#small-margin {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 .card-white {
-  background: white;
+  background: rgba(211, 183, 140, 0.505);
   padding: 30px;
-  border: 1px solid lightgrey;
+  border: 1px solid rgba(211, 211, 211, 0);
+  margin: 20px;
+  box-shadow: 0 3 30 black(0,0,0,0.5);
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 30%);
 }
 
 @media (max-width: 960px) {
@@ -70,5 +88,7 @@ a:hover {
   padding-right: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: rgb(128, 128, 128);
+  background-color: rgb(86, 39, 39);
+  color: white;
+  border-radius: 5px;
 }
